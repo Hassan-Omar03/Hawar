@@ -91,10 +91,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#35407E" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-      </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#35407E" />
+
+  {/* ✅ Explicit crawl + indexing hint */}
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large" />
+
+  {/* ✅ Sitemap discovery */}
+  <link rel="sitemap" type="application/xml" href="https://hawarhomes.com/sitemap.xml" />
+
+  {/* ✅ Performance = better crawl */}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+</head>
+
       <body
         className={`${geist.className} ${geistMono.className} antialiased`}
       >
