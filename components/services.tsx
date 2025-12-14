@@ -59,28 +59,9 @@ export function Services() {
         "Fully services luxury apartments and villas availabe for daily, weekly or monthly stays. Each property is thoughtfully furnished and equipped to ensure a comfortable and memorable stay. Dubai’s prime locations offer easy access to key attractions, business districts, and leisure spots.",
       features: ["Daily housekeeping", "Flexible stays", "Prime locations"],
     },
-   {
-  icon: Sofa,
-  title: "Interior Styling & Furnishing",
-  description:
-    "Complete interior styling and furnishing solutions designed specifically for Dubai’s short-term rental market. Our expert designs enhance visual appeal, improve guest satisfaction, and help achieve higher booking rates and premium pricing.",
-},
-
-    {
-  icon: Sparkles,
-  title: "Housekeeping & Maintenance",
-  description:
-    "Comprehensive housekeeping and on-call maintenance services designed to meet luxury hospitality standards. From regular cleaning to prompt issue resolution, we ensure a seamless and comfortable experience for every guest.",
-},
-
-   {
-  icon: HeadphonesIcon,
-  title: "Concierge Services",
-  description:
-    "Round-the-clock multilingual concierge services designed to elevate your Dubai experience. From airport transfers and reservations to curated local experiences, we take care of every detail so you can relax and enjoy your stay.",
-  features: ["Airport pickup", "Restaurant bookings", "Tour arrangements"],
-},
-
+   
+    
+   
     {
       icon: Wrench,
       title: "Property Management",
@@ -121,7 +102,7 @@ export function Services() {
         </div>
 
         {/* ✅ SAME HEIGHT GRID (DEFAULT STRETCH) */}
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
           {services.map((service) => (
             <Card
               key={service.title}

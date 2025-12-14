@@ -108,19 +108,16 @@ export function WhyChoose() {
         </div>
 
         <div
-          className={`mt-20 max-w-4xl mx-auto grid md:grid-cols-3 gap-8 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+          className={`mt-20 max-w-4xl mx-auto grid md:grid-cols-2 gap-8 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
           style={{ transitionDelay: "0.6s" }}
         >
           <div className="text-center p-6 rounded-2xl bg-card/50 backdrop-blur-sm border-2 border-border">
-            <div className="text-4xl font-bold text-primary mb-2">100%</div>
+            <div className="text-4xl font-bold text-primary mb-2">Excellent</div>
             <div className="text-muted-foreground">Guest Satisfaction</div>
           </div>
+          
           <div className="text-center p-6 rounded-2xl bg-card/50 backdrop-blur-sm border-2 border-border">
-            <div className="text-4xl font-bold text-primary mb-2">1000+</div>
-            <div className="text-muted-foreground">Happy Guests</div>
-          </div>
-          <div className="text-center p-6 rounded-2xl bg-card/50 backdrop-blur-sm border-2 border-border">
-            <div className="text-4xl font-bold text-primary mb-2">99.9%</div>
+            <div className="text-4xl font-bold text-primary mb-2">99.9</div>
             <div className="text-muted-foreground">Uptime Support</div>
           </div>
         </div>

@@ -39,12 +39,7 @@ export function Contact() {
 
   /* ✅ icon is OPTIONAL now */
   const contactInfo: ContactInfo[] = [
-    {
-      title: "Visit Us",
-      content: "Office 227, AlMansoori Building, Hor AlAnz, Dubai, UAE",
-      subtext: "Open Monday - Saturday",
-      link: "https://maps.google.com/?q=Office+227+AlMansoori+Building+Hor+AlAnz+Dubai",
-    },
+    
     {
       icon: Phone,
       title: "Call Us",
@@ -97,7 +92,7 @@ export function Contact() {
         </div>
 
         {/* Cards */}
-        <div className="mx-auto mb-16 grid max-w-7xl gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto mb-16 grid max-w-7xl gap-6 md:grid-cols-2 lg:grid-cols-3">
           {contactInfo.map((info, index) => (
             <Card
               key={info.title}
