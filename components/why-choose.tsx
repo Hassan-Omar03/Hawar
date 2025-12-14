@@ -84,7 +84,7 @@ export function WhyChoose() {
         </div>
 
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
             {values.map((value, index) => (
               <div
                 key={value.title}
@@ -108,7 +108,7 @@ export function WhyChoose() {
         </div>
 
         <div
-          className={`mt-20 max-w-4xl mx-auto grid md:grid-cols-2 gap-8 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+          className={`mt-20 max-w-4xl mx-auto grid md:grid-cols-1 gap-8 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
           style={{ transitionDelay: "0.6s" }}
         >
           <div className="text-center p-6 rounded-2xl bg-card/50 backdrop-blur-sm border-2 border-border">
@@ -116,10 +116,7 @@ export function WhyChoose() {
             <div className="text-muted-foreground">Guest Satisfaction</div>
           </div>
           
-          <div className="text-center p-6 rounded-2xl bg-card/50 backdrop-blur-sm border-2 border-border">
-            <div className="text-4xl font-bold text-primary mb-2">99.9</div>
-            <div className="text-muted-foreground">Uptime Support</div>
-          </div>
+          
         </div>
       </div>
     </section>

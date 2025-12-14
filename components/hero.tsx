@@ -46,8 +46,8 @@ export function Hero() {
               size="lg"
               className="text-lg px-10 py-7 h-auto shadow-lg hover:shadow-xl transition-all hover:scale-105"
             >
-              <Link href="#locations">
-                Explore Properties
+              <Link href="/services">
+                Explore our Services
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
@@ -57,7 +57,7 @@ export function Hero() {
               size="lg"
               className="text-lg px-10 py-7 h-auto bg-background/80 backdrop-blur-sm "
             >
-              <Link href="#contact">Contact Us</Link>
+              <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
 

@@ -11,6 +11,8 @@ export function FeaturedProperty() {
   const sectionRef = useRef<HTMLElement>(null)
 
   const propertyImages = [
+    { src: "/11.jpeg", alt: "Bedroom with stunning Burj Khalifa night view" },
+    { src: "/10.jpeg", alt: "Bedroom with stunning Burj Khalifa night view" },
     { src: "/hall1.jpeg", alt: "Bedroom with stunning Burj Khalifa night view" },
     { src: "/hall2.jpeg", alt: "Luxury bedroom with Dubai skyline view" },
     { src: "/bed1.jpeg", alt: "Bedroom with daytime Burj Khalifa view" },
@@ -33,6 +35,17 @@ export function FeaturedProperty() {
     { src: "/towel.jpeg", alt: "Luxury bathroom with modern fixtures" },
     { src: "/washroom.jpeg", alt: "Contemporary bathroom with bathtub" },
     { src: "/washroom2.jpeg", alt: "Contemporary bathroom with bathtub" },
+    { src: "/12.jpeg", alt: "Luxury bedroom with Dubai skyline view" },
+    { src: "/1.jpeg", alt: "Bedroom with stunning Burj Khalifa night view" },
+    { src: "/2.jpeg", alt: "Luxury bedroom with Dubai skyline view" },
+    { src: "/3.jpeg", alt: "Bedroom with daytime Burj Khalifa view" },
+    { src: "/4.jpeg", alt: "Master bedroom with balcony and night city views" },
+    { src: "/5.jpeg", alt: "Modern bedroom with elegant furnishings" },
+    { src: "/6jpeg", alt: "Spacious bedroom with contemporary design" },
+    { src: "/7.jpeg", alt: "Luxury bathroom with modern fixtures" },
+    { src: "/8.jpeg", alt: "Contemporary bathroom with bathtub" },
+        { src: "/9.jpeg", alt: "Bedroom with stunning Burj Khalifa night view" },
+    { src: "/bed8.jpeg", alt: "Luxury bedroom with Dubai skyline view" },
     
   ]
 

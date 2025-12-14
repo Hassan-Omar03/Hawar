@@ -46,7 +46,7 @@ export function Header() {
                 alt="Hawar Vacation Homes"
                 width={120}
                 height={60}
-                className="h-14 w-auto"
+                className="h-18 w-30"
                 priority
               />
             </Link>
