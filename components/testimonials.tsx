@@ -26,49 +26,70 @@ export function Testimonials() {
   }, [])
 
   const testimonials = [
-    {
-      name: "Sarah Johnson",
-      location: "United Kingdom",
-      rating: 5,
-      text: "Our stay at Hawar's Downtown Dubai property was absolutely incredible. The apartment was immaculate, the location perfect, and the service exceptional. The team went above and beyond to ensure our comfort. Highly recommend!",
-      date: "December 2024",
-    },
-    {
-      name: "Mohammed Al-Rashid",
-      location: "Saudi Arabia",
-      rating: 5,
-      text: "I've stayed at many vacation rentals in Dubai, but Hawar truly stands out. The Palm Jumeirah villa was luxurious, well-maintained, and the check-in process was seamless. The 24/7 support made us feel secure and cared for.",
-      date: "November 2024",
-    },
-    {
-      name: "Emily Chen",
-      location: "Singapore",
-      rating: 5,
-      text: "Perfect for our family vacation! The apartment in Business Bay had stunning views and was close to everything. The housekeeping service was excellent, and the staff responded to our requests within minutes. Will definitely book again!",
-      date: "November 2024",
-    },
-    {
-      name: "James Thompson",
-      location: "United States",
-      rating: 5,
-      text: "As a business traveler, I need reliable accommodation. Hawar delivered on all fronts - excellent WiFi, comfortable workspace, and professional service. The Dubai Hills property became my home away from home for three months.",
-      date: "October 2024",
-    },
-    {
-      name: "Natasha Petrov",
-      location: "Russia",
-      rating: 5,
-      text: "The attention to detail was remarkable. From the welcome package to the daily housekeeping, everything was perfect. The Bluewaters Island location gave us stunning views of the Dubai Eye. An unforgettable experience!",
-      date: "October 2024",
-    },
-    {
-      name: "Carlos Rodriguez",
-      location: "Spain",
-      rating: 5,
-      text: "Hawar made our Dubai holiday stress-free. The property was exactly as described, the concierge helped us book tours and restaurants, and the location in Downtown Dubai meant we could walk to the Dubai Mall. Excellent value!",
-      date: "September 2024",
-    },
-  ]
+  {
+    name: "Alish",
+    location: "Flower Mound, Texas",
+    rating: 5,
+    date: "June 2025",
+    text: "Saba’s place was great for our trip. It is centrally located and close to Dubai Mall. Check-in was smooth thanks to their help and they were very responsive to our queries. Overall, we really enjoyed our stay and would definitely recommend this place for your stay in Dubai.",
+  },
+  {
+    name: "Adel",
+    location: "Los Angeles, California",
+    rating: 5,
+    date: "March 2025",
+    text: "This Airbnb was so beautiful and clean. The host is amazing and everything was so easy. The place is walking distance from the Dubai Mall and many great restaurants. I definitely recommend staying here.",
+  },
+  {
+    name: "Merhawit Teclhaimanot",
+    location: "Airbnb Guest",
+    rating: 5,
+    date: "March 2025",
+    text: "Beautiful place with views of Burj Khalifa and walking distance to Dubai Mall. Responsive and cooperative host.",
+  },
+  {
+    name: "Saroj Kumar",
+    location: "Airbnb Guest",
+    rating: 5,
+    date: "March 2025",
+    text: "We stayed here for about a week with family and had a really comfortable experience. The place is clean, spacious, and relatively new. Burj Khalifa is visible from the balcony and windows. The host was very responsive and helpful during check-in, check-out, and throughout the stay. Highly recommended.",
+  },
+  {
+    name: "Fatna",
+    location: "Airbnb Guest",
+    rating: 5,
+    date: "March 2025",
+    text: "It’s a perfect one-bedroom luxury apartment, fully equipped with all comforts. Amazing views of Burj Khalifa and quick access to Dubai Mall. Host available 24/7, very friendly and professional. Thanks for everything!",
+  },
+  {
+    name: "Sana",
+    location: "Airbnb Guest",
+    rating: 5,
+    date: "February 2025",
+    text: "Amazing place so close to Dubai Mall and all amenities. Loved seating with Saba, highly recommend to everyone.",
+  },
+  {
+    name: "Sultan",
+    location: "Airbnb Guest",
+    rating: 5,
+    date: "February 2025",
+    text: "One of the best places in Dubai and the view is very beautiful.",
+  },
+  {
+    name: "Mohamed",
+    location: "Colombo, Sri Lanka",
+    rating: 5,
+    date: "February 2025",
+    text: "Best place and friendly coordination. It fully fulfilled the expectation. Would love to come again.",
+  },
+  {
+    name: "Lilia",
+    location: "Airbnb Guest",
+    rating: 5,
+    date: "January 2025",
+    text: "Stunning place downtown!",
+  },
+]
 
   return (
     <section ref={sectionRef} className="py-24 md:py-32 relative overflow-hidden">
@@ -134,7 +155,7 @@ export function Testimonials() {
             </div>
             <div className="text-left border-l border-border pl-4">
               <div className="text-2xl font-bold text-foreground">5.0 / 5.0</div>
-              <div className="text-sm text-muted-foreground">Based on 500+ reviews</div>
+              
             </div>
           </div>
         </div>

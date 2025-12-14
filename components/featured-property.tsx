@@ -234,7 +234,7 @@ export function FeaturedProperty() {
                 asChild
                 className="text-lg px-8 py-6 h-auto hover:scale-105 transition-all bg-transparent"
               >
-                <Link href="/locations">View All Properties</Link>
+                {/* <Link href="/locations">View All Properties</Link> */}
               </Button>
             </div>
           </div>
