@@ -31,8 +31,8 @@ export function Hero() {
           </div>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-8 text-balance leading-tight animate-fade-in-up">
-            Your Luxury Home Away From Home in{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Dubai</span>
+            Short Stays.Long{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Comfort</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-medium text-black mb-12 max-w-3xl mx-auto text-pretty leading-relaxed animate-fade-in-up animation-delay-200">
@@ -61,10 +61,10 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-20 max-w-4xl mx-auto w-full">
             {[
               { number: "2024", label: "Established", icon: Award },
-              { number: "100+", label: "Properties", icon: Home },
+              
               { number: "24/7", label: "Support", icon: MapPin },
               { number: "5.0", label: "Guest Rating", icon: Star },
             ].map((stat, index) => (
