@@ -31,7 +31,7 @@ export function Testimonials() {
     location: "Flower Mound, Texas",
     rating: 5,
     date: "June 2025",
-    text: "Saba’s place was great for our trip. It is centrally located and close to Dubai Mall. Check-in was smooth thanks to their help and they were very responsive to our queries. Overall, we really enjoyed our stay and would definitely recommend this place for your stay in Dubai.",
+    text: "The place was great for our trip. It is centrally located and close to Dubai Mall. Check-in was smooth thanks to their help and they were very responsive to our queries. Overall, we really enjoyed our stay and would definitely recommend this place for your stay in Dubai.",
   },
   {
     name: "Adel",
